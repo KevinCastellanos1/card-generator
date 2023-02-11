@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background: linear-gradient(#f15bb5, #00bbf9);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Estilos para el formulario de la tarjeta */
+.card-form {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Estilos para los campos para seleccionar el dia especial */
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para los campos de entrada */
+.input-field {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el campo de nombre */
+.name-input {
+    color: #6c584c;
+    background-color: rgba(225, 225, 225, 0.5);
+    margin-bottom: 10px; 
+} 
+
+/* Estilos para el selector de dias especiales */
+select {
+    background-color: rgba(225, 225, 225, 0.5);
+    color: blueviolet;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el campo de mensaje */
+.message-input {
+    width: 100%;
+    background-color: rgba(225, 225, 225, 0.5);
+    color: #6c584c;
+    margin-bottom: 18px;
+}
+
+/* Estilos para el botón generar */
+#generate-btn {
+    width: 100%;
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de la tarjeta */
+.card-container {
+    display: none;
+    width: 50%;
+    margin: auto;
+    border: 3px solid blueviolet;
+    padding: 20px;
+    box-shadow: rgba(225, 50, 50, 0.5) 5px 10px 5px;
+    border-radius: 10px;
+}
+
+/* Estilos para los bordes redondos de los elementos dentro del contenedor de la tarjeta */
+.card-form input,
+.card-form textarea,
+.card-form button {
+    border-radius: 5px;
+}
+
+/* Estilos para el texto dentro del contenedor de la tarjeta */
+.card-container p {
+    color: #073b4c;
+    font-size: 20px;
+}

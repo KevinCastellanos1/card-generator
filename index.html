@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Card Generator</h1>
+    <form id="card-form" class="card-form">
+        <label for="name">Recipient's Name:</label>
+        <input type="text" id="name" name="name" class="input-field name-input">
+
+        <label for="special-day-select">Select the special day</label>        
+        <select id="special-day-select">
+            <option value="birthday">Happy Birthday</option>
+            <option value="graduation">Happy Graduation</option>
+            <option value="anniversary">Happy Anniversary</option>
+            <option value="valentines">Happy Valentine's Day</option>
+            <option value="christmas">Happy Christmas</option>
+        </select>
+
+        <label for="message">Message:</label>
+       <textarea name="message" id="message" cols="30" rows="10" class="input-filed message-input">
+       </textarea>
+       <button type="submit" id="generate-btn" class="generate-btn">Generate card</button>
+    </form>
+    <div id="card-container" class="card-container"></div>
+
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
