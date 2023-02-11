@@ -16,23 +16,23 @@
     </header>
     <main>
         <div align="center">
-            <h3 align="center">Tabla de contenido</h3>
-            <a href="#informacion-general">1. Información General</a><br/>
-            <a href="#explicacion-codigo">2. Explicacion Codigo</a><br/>
+            <h3 align="center">Table of Contents</h3>
+            <a href="#general-information">1. General Information</a><br/>
+            <a href="#code-explanation">2. Code Explanation</a><br/>
             <a href="#video">3. Video</a><br/>
             <a href="#faqs">4. FAQs</a><br/>
-            <a href="#contacto">5. Contacto</a><br/>
+            <a href="#contact">5. Contact</a><br/>
         </div>    
         <div>       
             <hr>    
-            <h3 align="center">Informacion General</h3> 
+            <h3 align="center">General Information</h3> 
             <hr>
             <p>The project is about a card generator. It consists of an HTML page that contains a form with fields for entering the recipient's name, selecting a special day and writing a message. In addition, there is a "Generate card" button that, when clicked, displays a card with the details specified in the form.</p>
             <p>The page also has a CSS file that provides styles for the HTML page, including styles for the form, input fields, button, and card container. Finally, there is also a JavaScript file that controls the card functionality, such as showing the card when the "Generate card" button is clicked.</p>
             <p align="center"><a  href="https://card-generator-kev.netlify.app/">DEMO (click aqui)</a></p>
         </div>
         <div>              
-            <hr><h3 align="center">Explicacion Codigo</h3><hr>        
+            <hr><h3 align="center">Code Explanation</h3><hr>        
             <p>The code is for a card generator project. It consists of an HTML page that contains a form with fields for entering the recipient's name, selecting a special day, and writing a message. There is also a "Generate card" button that, when clicked, displays a card with the details specified in the form. The page also has a CSS file that provides styles for the HTML page, including styles for the form, input fields, button, and card container. Finally, there is also a JavaScript file that controls the card's functionality, such as showing the card when the "Generate card" button is clicked.</p>           
         </div> 
         <div>
@@ -56,7 +56,7 @@
     </main>
     <footer>        
         <div align="center">
-            <hr><h3>Contacto</h3><hr>
+            <hr><h3>Contact</h3><hr>
             <p align="center">
             <a href="https://linkedin.com/in/kevincastellanos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kevincastellanos" height="30" width="40" /></a>
             </p>
