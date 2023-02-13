@@ -40,8 +40,7 @@
             <video src="https://user-images.githubusercontent.com/32087507/218238203-aee93c66-c58a-4c79-95ee-337c8e797556.webm"></video>    
         </div>
         <div>
-            <hr><h3 align="center">FAQs</h3><hr>        
-            <h4 align="center">Lista de preguntas:<h4>            
+            <hr><h3 align="center">FAQs</h3><hr>          
             <p>1. What is the project about?</p>            
             <p>- The project is a card generator. It consists of an HTML page that contains a form with fields to enter the recipient's name, select a special day and write a message. In addition, there is a "Generate card" button that, when clicked, shows a card with the details specified in the form.</p>        
             <p>2. What is the HTML page used for?</p>            
